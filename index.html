@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Versículos Diários</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="card-moderno" id="app-card">
+    <div class="header">
+      <h2>Reflexão do Dia</h2>
+      <button id="btn-theme" onclick="alternarTema()">🌙</button>
+    </div>
+    
+    <div class="box-versiculo">
+      <p id="verse-text">"O Senhor é o meu pastor, nada me faltará."</p>
+      <span id="verse-reference">Salmos 23:1</span>
+    </div>
+
+    <button class="btn-acao" id="btn-next" onclick="sortearVersiculo()">Novo Versículo ✨</button>
+    <button class="btn-acao" id="btn-share" onclick="compartilharZap()">Compartilhar no Zap 🟢</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
